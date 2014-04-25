@@ -1,0 +1,18 @@
+{
+  "name": "relic",
+  "version": "0.0.1",
+  "description": "Application Framework",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnrob1880/relic.git"
+  },
+  "keywords": [
+    "web",
+    "framework"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnrob1880/relic/issues"
+  }
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Relic.js</title>
+</head>
+<body>
+    <script src="../build/build.js"></script>
+    <script>
+        var relic = require('relic');
+        
+        var app = relic("#example")
+            .use(function(Relic, options) {
+                console.log(['paint options', options]);
+                Relic.paint = function(clr) {                    
+                    console.log('painting color: ' + clr);
+                    
+                };
+            }, { "target": "myApp"});
+
+        app.paint('red');
+        
+    
+    </script>
+</body>
+</html>

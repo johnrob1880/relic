@@ -1,0 +1,14 @@
+{
+    "name": "relic",
+    "repo": "johnrob1880/relic",
+    "description": "Application framework",
+    "version": "0.0.1",
+    "keywords": ["web", "app"],
+    "dependencies": {},
+    "license": "MIT",
+    "main": "lib/index.js",
+    "scripts": [
+        "lib/index.js",
+        "lib/relic.js"
+    ]
+}
